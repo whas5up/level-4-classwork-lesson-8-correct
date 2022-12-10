@@ -1,9 +1,10 @@
 //1 create an array of strings (has to be of at least length 10)
-
+let strings = ["apple", "banana", "carrot", "donut", "eggplant", "fig", "grapefruit", "honeydew", "ice cream", "jellyfish"];
 //2 print out the second element in the array
+console.log(strings[1]);
 
 //3 print out the length of the array
-
+console.log(strings.length);
 //4 iterate over the array and print out each element
 
 //5 create a function that takes in a string and in the function iterate over each element in the array and for each element check if its equal to the parameter
