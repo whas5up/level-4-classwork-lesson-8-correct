@@ -80,10 +80,19 @@
         popped.innerHTML = favorites.join(", "); 
 
         //Exercises 9-12, practice slice(), shift(), unshift() in arrays.js
-
-
-
+        let yourNestedArray = [
+            ['pie', 'tart'],
+            ['ice cream', 'cake','candy'],
+            ['soda','cream']
+        ];
         
+        for (let arrays of yourNestedArray) {
+            for(let item of arrays){
+                console.log(item);
+            }
+        }
+
+
     </script>
 
 </body>
